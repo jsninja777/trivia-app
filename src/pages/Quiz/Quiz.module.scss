@@ -1,0 +1,11 @@
+.Quiz {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 10%;
+  height: 100vh;
+  &__title {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,28 @@
+.Home {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  &__title {
+    font-size: 3rem;
+  }
+  &__text {
+    font-size: 2rem;
+  }
+  &__startBtn {
+    padding: 20px 0;
+    width: fit-content;
+    align-self: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: rgb(105, 110, 110);
+  }
+  &__startBtn:hover,
+  &__startBtn:active {
+    opacity: 0.8;
+  }
+}

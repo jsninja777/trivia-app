@@ -1,0 +1,1 @@
+export const questionsData = (state) => state.questionsReducer;
